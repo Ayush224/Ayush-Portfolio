@@ -22,7 +22,7 @@ const About = () => {
               src={aboutImg}
               alt="about-image"
             />
-          </div>
+          </div> 
         </motion.div>
         <motion.div
           whileInView={{ x: 0, opacity: 1 }}
