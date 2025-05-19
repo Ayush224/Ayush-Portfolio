@@ -13,7 +13,7 @@ const NameContent = () => {
     <div>
       <div className="flex flex-wrap pb-4 lg:mb-40">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col">
+          <div className="flex flex-col lg:ml-20">
             <motion.h1
               variants={animate1(0)}
               initial="hidden"
@@ -46,7 +46,7 @@ const NameContent = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 100, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              className="rounded-2xl h-80 mr-55 -z-1 lg:h-100 "
+              className="rounded-2xl h-80 mr-55 -z-1 lg:h-90 "
               src={img}
               alt="Ayush Image"
             />

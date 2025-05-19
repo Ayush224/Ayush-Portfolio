@@ -26,6 +26,7 @@ export const Projects = [
     description:
       "A personal portfolio website fully responsive showcasing projects, skills, and contact information.",
     tech: ["React", "Tailwind CSS", "Framer motion"],
+    link: "https://ayush-portfolio-xi-eight.vercel.app/",
   },
   {
     title: "AI-chat(Gemini clone)",
@@ -33,6 +34,7 @@ export const Projects = [
     description:
       "An AI chat app developed using Gemini API to give answers to users based o their query. It fetches the result from gemini-ai and displays on the UI created almost same as Gemini. It's responsive and gives the result the same way as an AI model gives.",
     tech: ["React", "Tailwind CSS", "CSS", "Context API"],
+    link: "/",
   },
   {
     title: "Food-Heaven",
@@ -40,7 +42,7 @@ export const Projects = [
     description:
       "Built a fully responsive and dynamic food ordering application. The app allows to browse the menu, view food items they want, add items to the cart, and place orders with a seamless and modern UI. State management is efficiently handled using Redux Toolkit for cart operations and dynamic filtering, while Tailwind CSS ensures visually appealing design and UI. Also used react-hot-tost for notification UI and and a smooth navigation experience using React Router.",
     tech: ["React", "Tailwind CSS", "Redux-toolkit"],
-    link: "food-heaven-lake.vercel.app",
+    link: "https://food-heaven-lake.vercel.app/",
   },
 ];
 

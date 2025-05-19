@@ -48,6 +48,7 @@ const Project = () => {
                   {tech}
                 </span>
               ))}
+              <a href={proj.link} target="_blank" className="ml-10 text-blue-300 border">Live Link</a>
             </motion.div>
           </div>
         ))}
