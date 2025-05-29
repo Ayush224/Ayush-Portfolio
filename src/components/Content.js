@@ -1,6 +1,7 @@
 import img from "../assets/Images/portfolio-img.webp";
 import ai from "../assets/Images/ai-logo.webp";
 import food from "../assets/Images/logo2.png";
+import notes from "../assets/Images/Notes.png"
 
 export const mainContent =
   "I am a passionate front-end web developer with skills to make scalable and responsive front-end project works. I have frontend skills like JavaScript, React, Redux toolkit and worked with contect-api. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.";
@@ -21,6 +22,14 @@ export const experience = [
 
 export const Projects = [
   {
+    title: "Food-Heaven",
+    image: food,
+    description:
+      "Built a fully responsive and dynamic food ordering application. The app allows to browse the menu, view food items they want, add items to the cart, and place orders with a seamless and modern UI. State management is efficiently handled using Redux Toolkit for cart operations and dynamic filtering, while Tailwind CSS ensures visually appealing design and UI. Also used react-hot-tost for notification UI and and a smooth navigation experience using React Router.",
+    tech: ["React", "Tailwind CSS", "Redux-toolkit"],
+    link: "https://food-heaven-lake.vercel.app/",
+  },
+  {
     title: "Portfolio Website",
     image: img,
     description:
@@ -34,15 +43,15 @@ export const Projects = [
     description:
       "An AI chat app developed using Gemini API to give answers to users based o their query. It fetches the result from gemini-ai and displays on the UI created almost same as Gemini. It's responsive and gives the result the same way as an AI model gives.",
     tech: ["React", "Tailwind CSS", "CSS", "Context API"],
-    link: "/",
+    link: "https://ayush-chat-gemini.netlify.app/chat-ai/",
   },
   {
-    title: "Food-Heaven",
-    image: food,
+    title: "Notes App",
+    image: notes,
     description:
-      "Built a fully responsive and dynamic food ordering application. The app allows to browse the menu, view food items they want, add items to the cart, and place orders with a seamless and modern UI. State management is efficiently handled using Redux Toolkit for cart operations and dynamic filtering, while Tailwind CSS ensures visually appealing design and UI. Also used react-hot-tost for notification UI and and a smooth navigation experience using React Router.",
-    tech: ["React", "Tailwind CSS", "Redux-toolkit"],
-    link: "https://food-heaven-lake.vercel.app/",
+      "A Notes App that allows users to create, read, update, and delete personal notes. It uses Redux Toolkit for efficient state management, ensuring all CRUD operations are handled through a centralized slice. Notes are stored in localStorage for persistence across sessions. The app offers a clean interface to manage multiple notes with instant feedback on every action.",
+    tech: ["React", "Tailwind CSS", "CSS", "Redux-toolkit"],
+    link: "https://notes-app-nine-jade.vercel.app/",
   },
 ];
 

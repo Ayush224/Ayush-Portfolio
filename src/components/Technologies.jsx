@@ -4,6 +4,7 @@ import { FaJsSquare } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiRedux } from "react-icons/si";
 import { motion } from "motion/react";
 
 const animate1 = (d) => ({
@@ -84,6 +85,14 @@ const Technologies = () => {
             className="flex rounded-2xl border-4 border-neutral-800 p-4"
           >
             <RiTailwindCssFill className="text-6xl text-cyan-500" />
+          </motion.div>
+          <motion.div
+            variants={animate1(3)}
+            initial="initial"
+            animate="animate"
+            className="flex rounded-2xl border-4 border-neutral-800 p-4"
+          >
+            <SiRedux className="text-6xl text-cyan-500" />
           </motion.div>
         </motion.div>
       </div>
