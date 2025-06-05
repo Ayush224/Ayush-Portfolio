@@ -1,7 +1,7 @@
 import img from "../assets/Images/portfolio-img.webp";
 import ai from "../assets/Images/ai-logo.webp";
 import food from "../assets/Images/logo2.png";
-import notes from "../assets/Images/Notes.png"
+import notes from "../assets/Images/Notes.png";
 
 export const mainContent =
   "I am a passionate front-end web developer with skills to make scalable and responsive front-end project works. I have frontend skills like JavaScript, React, Redux toolkit and worked with contect-api. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.";
@@ -16,7 +16,7 @@ export const experience = [
     company: "DXC Technology",
     description:
       "Worked on multiple applications to maintain and manage the application functionality and proper working. Associated with team to develop automations to enhance the workflow and reduce the overall time consumptions on repetative tasks. Explored application UI and also worked on it's fixes and deployments which was appreciated by business clients and users.",
-    tech: ["Python", "CSS", "JS", "Unix"],
+    tech: ["JavaScript", "CSS", "HTML", "Python", "Unix"],
   },
 ];
 
