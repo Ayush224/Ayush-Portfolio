@@ -2,6 +2,7 @@ import img from "../assets/Images/portfolio-img.webp";
 import ai from "../assets/Images/ai-logo.webp";
 import food from "../assets/Images/logo2.png";
 import notes from "../assets/Images/Notes.png";
+import currency from "../assets/Images/Currency.png"
 
 export const mainContent =
   "I am a passionate front-end web developer with skills to make scalable and responsive front-end project works. I have frontend skills like JavaScript, React, Redux toolkit and worked with contect-api. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.";
@@ -44,6 +45,14 @@ export const Projects = [
       "An AI chat app developed using Gemini API to give answers to users based o their query. It fetches the result from gemini-ai and displays on the UI created almost same as Gemini. It's responsive and gives the result the same way as an AI model gives.",
     tech: ["React", "Tailwind CSS", "CSS", "Context API"],
     link: "https://ayush-chat-gemini.netlify.app/chat-ai/",
+  },
+  {
+    title: "Currency Converter",
+    image: currency,
+    description:
+      "A responsive Currency Converter web app built using React and Tailwind CSS. It allows users to convert values between multiple currencies in real-time. Users can input an amount, select source and target currencies, and even swap them with a single click. The app fetches conversion rates dynamically via a custom Currency hook and ensures a clean UI with icon-based interaction using Lucide React. Tailwind utilities enhance styling and layout for a modern look.",
+    tech: ["React", "Tailwind CSS","Custom Hook", "Currency API"],
+    link: "https://convert-currency-psi.vercel.app/",
   },
   {
     title: "Notes App",
