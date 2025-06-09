@@ -11,7 +11,7 @@ const Navbar = () => {
       whileInView={{ opacity: 1, y: 0 }}
       initial={{ opacity: 0, y: 100 }}
       transition={{ duration: 0.8 }}
-      className="sticky top-0"
+      className="sticky top-0 z-10"
     >
       <nav className="bg-black flex justify-between items-center mb-20 py-6">
         <div className="flex flex-shrink-0 ">
